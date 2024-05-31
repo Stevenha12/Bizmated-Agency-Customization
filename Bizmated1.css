@@ -1,0 +1,473 @@
+
+@import url("https://pimp-my-ghl.s3.us-west-2.amazonaws.com/pmg-themes/base-themes/pmg-dark-theme.css?versionId=NIdcgPOWbYscmXU64HRBEyaj3.25RxDD");
+
+:root {
+  --main-brand-color-1: #1f1f2b;
+  --main-brand-color-2: #22242d;
+  --main-brand-color-3: #312f3b;
+  --main-brand-color-4: #14151e;
+  --main-accent-color: #cbfe00;
+  --main-accent-text-color: #fff;
+  --crm-danger-color: #ea2116;
+  --crm-warning-color: #918501;
+  --crm-success-color: #08cd43;
+  --main-notification-color: var(--main-accent-color) !important;
+
+  --sidebar-collapse-icon: url(https://storage.googleapis.com/msgsndr/7W9dXBz9LNBVeGvFZ2VG/media/65a15640c379081c31eb8b49.png);
+
+  /* Sidebar Icons */
+
+  --dashboard-launchpad-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/launch-pad-icon.png) !important;
+  --dashboard-dashboard-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/dashboard-icon-white.png) !important;
+  --dashboard-conversation-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/chat-icon.png) !important;
+  --dashboard-calendar-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/calendar-icon-white.png) !important;
+  --dashboard-contact-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/contact-icon.png) !important;
+  --dashboard-opportunities-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/opportunities-icon.png) !important;
+  --dashboard-payment-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/payments-icon.png) !important;
+  --dashboard-marketing-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/email-marketing-icon.png) !important;
+  --dashboard-automation-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/automation-icon.png) !important;
+  --dashboard-sites-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/sites-icon.png) !important;
+  --dashboard-memberships-icon: "\f6a5";
+  --dashboard-reputation-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/reputation-icon.png) !important;
+  --dashboard-reporting-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/reporting-icon.png) !important;
+  --dashboard-app-icon: "\f3cd";
+  --dashboard-helpdesk-icon: "\f128";
+  --dashboard-cloud-icon: "\f382";
+  --dashboard-setting-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/settings-icon.png) !important;
+  --dashboard-marketplace-icon: "\f233";
+
+  --sidebar-menu-name-dashboard: "Dashboard" !important;
+  --sidebar-menu-name-conversations: "Inbox" !important;
+  --sidebar-menu-name-calendars: "Calendars" !important;
+  --sidebar-menu-name-contacts: "Contacts" !important;
+  --sidebar-menu-name-opportunities: "Opportunities" !important;
+  --sidebar-menu-name-payments: "Payments" !important;
+  --sidebar-menu-name-email-marketing: "Marketing" !important;
+  --sidebar-menu-name-automation: "Automations" !important;
+  --sidebar-menu-name-sites: "Builder" !important;
+  --sidebar-menu-name-reputation: "Reputation" !important;
+  --sidebar-menu-name-reporting: "Reporting" !important;
+  --sidebar-menu-name-app-marketplace: "App Marketplace" !important;
+  --sidebar-menu-name-mobile-app: "Mobile App" !important;
+  --sidebar-menu-name-memberships: "Courses" !important;
+  --sidebar-menu-name-settings: "Settings" !important;
+
+  /* Agency Sidebar Icons */
+
+  --agency-dashboard-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/dashboard-icon-white.png) !important;
+  --agency-sass-configurator-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/agency-saas-Icon.png) !important;
+  --agency-prospect-icon: "\f500";
+  --agency-subaccount-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/agency-accounts-icon.png) !important;
+  --agency-snapshot-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/account-snapshot-icon.png) !important;
+  --agency-reselling-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/agency-reseller-icon.png) !important;
+  --agency-marketplace-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/agency-marketplace-icon.png) !important;
+  --agency-affiliate-icon: "\f0c0";
+  --agency-templatelibrary-icon: "\f660";
+  --agency-partners-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/agency-partners-icon.png) !important;
+  --agency-university-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/agency-university-icon.png) !important;
+  --agency-sasseducation-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/saas-education-icon.png) !important;
+  --agency-sassfasttrack-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/agency-saas-fasttrack.png) !important;
+  --agency-ideas-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/agency-ideas-icon.png) !important;
+  --agency-mobileapp-icon: "\f10b";
+  --agency-marketplace-icon: "\f0ac";
+  --agency-rms-icon: "\f005";
+  --agency-settings-icon: url(https://pimp-my-ghl.s3.us-west-2.amazonaws.com/theme-assets/icons/settings-icon.png) !important;
+
+  --conversation-single-message-background-color: #0000 !important;
+  --conversation-single-message-font-color: #fff !important;
+
+  --dashboard-left-nav-active-background: var(--main-brand-color-3) !important;
+  --dashboard-left-nav-border: 1px solid #0000;
+  --dashboard-left-nav-active-border: 1px solid var(--main-accent-color) !important;
+  --dashboard-left-nav-hover-background: var(--main-brand-color-3) !important;
+  --dashboard-left-nav-hover-border: 1px solid var(--main-accent-color) !important;
+  --dashboard-left-nav-icon-hover-color: var(--main-accent-text-color) !important;
+  --dashboard-left-nav-font-hover-color: var(--main-accent-text-color) !important;
+  --dashboard-left-nav-icon-active-color: var(--main-accent-text-color) !important;
+  --dashboard-left-nav-font-active-color: var(--main-accent-text-color) !important;
+
+  --custom-loading-icon-gradient-1: var(--main-brand-color-1)
+  /* Custom Loading Icon Screen - Gradient Colors */
+  /* --custom-loading-icon-gradient-1: #ffffff; */;
+  --custom-loading-icon-gradient-2: var(--main-brand-color-1)
+    /* --custom-loading-icon-gradient-2: #eeeeee; */;
+  --custom-loading-icon: url(https://storage.googleapis.com/msgsndr/7W9dXBz9LNBVeGvFZ2VG/media/65a15640c379081c31eb8b49.png) /* Update URL */;
+  --custom-loading-icon-width: 94px;
+  --custom-loading-icon-height: 94px;
+  --custom-loading-font-color: #e9e9e9 !important;
+  --custom-sidebar-collapse-icon: url() /* Update URL */;
+
+  --conversation-contact-avatar-background: var(--main-accent-color) !important;
+
+  --calendars-text-color: #fff !important;
+
+  --dashboard-panel-text-open: var(--main-accent-color) !important;
+  --dashboard-panel-text-closed: var(--main-accent-color) !important;
+
+  --funnel-color-default: #cbfe00 !important;
+  --funnel-text-color: #8d8585 !important;
+
+  --funnel-color-1: #cbfe00 !important;
+  --funnel-color-2: #A8F043 !important;
+  --funnel-color-3: #84E387 !important;
+  --funnel-color-4: #61D5CA !important;
+  --funnel-color-5: #858ED6 !important;
+  --funnel-color-6: #AA47E2 !important;
+  --funnel-color-7: #CE00EE !important;
+  --funnel-color-8: #DE00CB !important;
+  --funnel-color-9: #EF00A7 !important;
+  --funnel-color-10: #FF0084 !important;
+
+  --funnel-color-1-hover: var(--funnel-color-1) !important;
+  --funnel-color-2-hover: var(--funnel-color-2) !important;
+  --funnel-color-3-hover: var(--funnel-color-3) !important;
+  --funnel-color-4-hover: var(--funnel-color-4) !important;
+  --funnel-color-5-hover: var(--funnel-color-5) !important;
+  --funnel-color-6-hover: var(--funnel-color-6) !important;
+  --funnel-color-7-hover: var(--funnel-color-7) !important;
+  --funnel-color-8-hover: var(--funnel-color-8) !important;
+  --funnel-color-9-hover: var(--funnel-color-9) !important;
+  --funnel-color-10-hover: var(--funnel-color-10) !important;
+}
+
+header.hl_header button {
+  background: var(--main-accent-color) !important;
+  color: #000 !important;
+}
+
+.hl_header .btn.btn-green-dark:hover, 
+.hl_header .btn-changelog:hover, 
+.hl_header a#recent_activities-toggle:hover, 
+.hl_header .avatar_img:hover {
+  background-color: var(--main-accent-color) !important;
+}
+
+/* Make this Black or White depending on client accent */
+.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active .h-5, 
+.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover .h-5,
+.sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a:hover .h-5,
+.sidebar-v2-agency #sidebar-v2 nav a:hover .h-5,
+.sidebar-v2-agency #sidebar-v2 nav a:hover img, 
+.sidebar-v2-agency #sidebar-v2 nav a.active .h-5,
+.sidebar-v2-agency #sidebar-v2 nav a.active img,
+.hl_header .btn-changelog:hover .fa-bullhorn:before,
+.hl_header a#recent_activities-toggle:hover .fa-bell:before,
+.hl_header .btn.btn-green-dark:hover .fa-phone:before,
+a#tb_calendar-settings-top:hover img,
+a#tb_contact-custom-fields-settings:hover img,
+a#tb_sites-domain-settings:hover img {
+  filter: brightness(100) !important;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active.divider,
+.sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active.divider, 
+.sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover.divider {
+  border: 0px solid #0000 !important;
+}
+
+.hl_header .avatar_img:hover {
+  color: #000 !important;
+}
+
+.sidebar-v2-location .hl_header .topmenu-nav .topmenu-navitem.active, 
+.sidebar-v2-location .hl_header .topmenu-nav .topmenu-navitem:hover {
+  border: 1px solid var(--main-accent-color) !important;
+}
+
+.sidebar-v2-location .hl_header .topmenu-nav .topmenu-navitem.active span.flex.items-center,
+.sidebar-v2-location .hl_header .topmenu-nav .topmenu-navitem:hover span.flex.items-center {
+  color: var(--main-accent-text-color) !important;
+}
+
+.help-section-heading .exculsive-tag {
+  background: var(--main-accent-color) !important;
+  color: #000 !important;
+}
+
+div#CalendarsFeatureDiscovery .font-sans.hl-wrapper-container {
+  background: #0000 !important;
+}
+
+.ctk-date-time-picker .field.has-value .field-label,
+.date-time-picker .field.has-value .field-label {
+    display: none !important;
+}
+
+body .hl-card {
+  border-color: #0000 !important;
+}
+
+.card.hl_dashboard--matters-added, .hl_customer-acquisition, .card.hl_dashboard--conversion-rate,
+.card.hl_dashboard--sales-funnel, .card.hl_dashboard--need-action, .card.pmd_dashboard--appointments,
+.card.hl_dashboard--latest-review-requests, .card.hl_dashboard--emails-sent, section#funnels .card-body.--no-padding,
+.hl_funnels--website-pages .card, .launchpad-item-container, .d-flex.shadow.rounded-top.bg-white.align-items-center.justify-content-center.p-5,
+.card.campaign_stats_card, .card.overflow-x, .hl_controls.p-2.pb-0.m-0.row, section#customers .card,
+.hl-table .table-responsive, .d-flex.flex-column.shadow.rounded-top, div#profile_photo_dropzone,
+section#triggers .hl_rules--wrap .card .card-body, .calendar-settings .body .card--provider,
+.bg-white.py-3.mx-3.rounded.shadow, li.text-center.bg-white.rounded-lg.shadow-md.divide-y.divide-gray-200.hover\:border-curious-blue-100.border,
+.hl_create-campaign .new-event-day-item .event-card, .hl_create-campaign .card, .folder .card-header,
+.hl_funnels--card.row, .control-block > .steps-item--image[data-v-ebc3fc82], .steps-item--novariation,
+table#__BVID__170, div#pg-form-builder__tab--analyze .card.hl_dashboard--pipeline-value, .steps-item--image,
+section#settings .hl_settings--body .hl_settings--main.col-lg-6 .card, .hl_wrapper-text-widget--root .mb-1,
+.hl_settings--body .bg-white.py-3.rounded.shadow.flex.justify-center.items-center.flex-col.w-full,
+div#hl_analytics--filters, div#invites-goal, .hl_reputation_settings button.btn.dropdown-toggle.btn-light,
+.hl_reputation--body.hl_reputation--scroll-self .card, .two_part ,.hl_edit-event-modal .modal-body,
+div#preview_container, .personal-logo div#profile_photo_dropzone, .steps-split-test-range, .modal-body--inner .card.custom-card,
+div#collapse-user-info, div#collapse-user-permission, div#collapse-user-roles,
+div#collapse-user-call-settings, div#collapse-user-availability, div#collapse-user-calendar-configuration, 
+div#customer_photo_dropzone, .card-integration, .hl_wrapper--inner.agency-dash .card-body,
+.hl_new-variation--templates .template-card, .card.task-list-card .hl_tasks-list button.dropdown-toggle, .billing-alert,
+.shimmer-card, #yext_resell .saas_backdrop .stripe-connect__setup-btn, .connected-acc__overview,
+.plan-details, .agency-dash .saas-banner, .saas-dash__top-bar,
+.saas-plan-builder__wrap, section.hl_agency.hl_agency-sales-resources .card, .card.hl_location--item,
+section#agency_location .card, .sidebar-v2-location .hl_settings--body .hl_settings--main.col-lg-6 .card,
+.hl_reputation_settings div#review-link, .sidebar-v2-agency .hl_wrapper .hl_settings--body .card,
+.sidebar-v2-agency .hl_wrapper .card.hl_settings--team-management, .hl_reputation_settings div#review-link,
+.hl_reputation_settings div#review_request_behaviour, .hl_reputation_settings div#review-sms, .hl_reputation_settings div#review-email,
+.hl_reputation_settings div#review-widget, .hl_smartlists--main, section#smartlists .list-group,
+section#trigger-links .table-wrap, .card.hl_customer-acquisition--table .hl-table, section#settings .hl_settings--body .table-wrap,
+.hl_settings--body .table-wrap table.table tr td, section#opportunities .hl_opportunities-item .card-body,
+.hl_settings--profile .hl_settings--main.col-lg-12 .card, section#dashboard .card.hl_dashboard--website-visitors,
+.card.custom-card div#collapse-user-info, section#settings .table-wrap, .card.hl_dashboard--pipeline-value,
+.group.h-full {
+  box-shadow: rgb(91 85 85 / 47%) 0px 19px 15px -20px !important;
+}
+
+/* Opporunities Value */
+.group.h-full.crm-opportunities-value path {
+  fill: var(--main-accent-color) !important;
+}
+
+.group.h-full.crm-opportunities-funnel path[fill="rgb(180,180,180)"] {
+  fill: #312f3b !important;
+  fill-opacity: 1 !important;
+}
+
+.Canny_Badge, .hl_header--recent-activities.-notification:before, .n-badge .n-badge-sup {
+  background: #f00 !important;
+}
+
+.feature-discovery-main-container .flex.flex-row.gap-2.bg-primary-600.text-white.px-2.rounded-2xl.py-\[2px\].items-center.text-\[12px\].font-semibold {
+  background: var(--main-brand-color-1) !important;
+  color: var(--main-accent-text-color) !important;
+}
+
+div#CalendarsFeatureDiscovery .hl-wrapper-container {
+  background: #0000 !important;
+}
+
+.group.h-full.crm-opportunities-status path {
+  stroke: #0000 !important;
+}
+
+/* Won Small Bubble */
+.group.h-full.crm-opportunities-status 
+.w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
+.hl-card-content path[fill="#22CCEE"] {
+  fill: #7a9900 !important;
+}
+/* Won Charts */
+.group.h-full.crm-opportunities-status 
+.w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
+.hl-card-content path[fill="rgb(34,204,238)"] {
+  fill: #7a9900 !important;
+}
+/* Won Charts Hover */
+.group.h-full.crm-opportunities-status 
+.w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
+.hl-card-content path[fill="rgb(37,224,255)"] {
+  fill: #7a9900 !important;
+}
+
+/* Open Small Bubble */
+.group.h-full.crm-opportunities-status 
+.w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
+.hl-card-content path[fill="#53B1FD"] {
+  fill: #CBFE00  !important;
+}
+/* Open Charts */
+.group.h-full.crm-opportunities-status 
+.w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
+.hl-card-content path[fill="rgb(83,177,253)"] {
+  fill: #CBFE00  !important;
+}
+
+/* Open Charts Hover */
+.group.h-full.crm-opportunities-status 
+.w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
+.hl-card-content path[fill="rgb(91,194,255)"] {
+  fill: #CBFE00  !important;
+}
+
+/* Abandoned Small Bubble */
+.group.h-full.crm-opportunities-status 
+.w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
+.hl-card-content path[fill="#8098F9"] {
+  fill: #546900  !important;
+}
+
+ /* Abandoned Charts */
+.group.h-full.crm-opportunities-status 
+.w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
+.hl-card-content path[fill="rgb(128,152,249)"] {
+  fill: #546900  !important;
+}
+
+/* Abandoned Charts Hover */
+.group.h-full.crm-opportunities-status 
+.w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
+.hl-card-content path[fill="rgb(140,167,255)"] {
+  fill: #546900  !important;
+}
+
+button#lki4VEKAMpGqEj4vMQnl {
+  background: var(--main-accent-color) !important;
+}
+
+span.break-words.line-clamp-1, span.font-semibold.break-words.line-clamp-1,
+.flex-1.h-full.flex.break-words.overflow-hidden.whitespace-pre-wrap.line-through.flex-col,
+span.font-semibold.break-words.line-clamp-2, span.break-words.line-clamp-2 {
+  color: var(--calendars-text-color) !important;
+}
+
+.fc .fc-timegrid-now-indicator-line {
+  border-color: var(--funnel-color-10) !important;
+}
+
+.fc-theme-standard td, .fc-theme-standard th {
+  border: 0px solid var(--fc-border-color);
+}
+
+.sidebar-v2-location #conversations .messages-list--item-v2 .avatar_img {
+  color: #000 !important;
+}
+
+body[data-theme=default-dark-v1] .hl_conversations--message>.hl_conversations--message-body .messages-single a {
+  color: #7d7575 !important;
+}
+
+.sidebar-v2-location #conversations .messages-list--item-v2:hover {
+  background: #312f3b !important;
+}
+
+.fc-timegrid-event-harness-inset .fc-timegrid-event, .fc-timegrid-event.fc-event-mirror, .fc-timegrid-more-link {
+  box-shadow: 0 0 0 2px #cbef00 !important;
+}
+
+.fc-theme-standard .fc-scrollgrid {
+  border: 0px solid var(--fc-border-color);
+}
+
+html body .n-data-table-tr:hover {
+  background-color: #50593b !important;
+}
+
+div#CalendarPage .bg-white {
+  border-color: #0000 !important;
+}
+
+.messages-single .avatar .avatar_img, html body .n-avatar {
+  background: var(--main-accent-color) !important;
+  color: #000 !important;
+}
+
+html body .n-avatar .text-xs {
+  color: #000 !important;
+}
+
+.n-avatar .n-avatar__text {
+  color: #000 !important;
+}
+
+.sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2 .hl_v2-location_switcher #switcher-agency-switch svg rect {
+  fill: var(--main-accent-color) !important;
+}
+
+.hl_pinned-container .hl_pinned path {
+  color: var(--main-accent-color) !important;
+}
+
+div#switcher-agency-switch path {
+  stroke: #000 !important;
+}
+
+.sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2 .hl_v2-location_switcher .hl_account.active {
+  border: 1.5px solid var(--main-accent-color) !important;
+}
+
+.n-date-panel .n-date-panel-dates .n-date-panel-date.n-date-panel-date--selected {
+  color: #000 !important;
+}
+
+.n-date-panel .n-date-panel-dates .n-date-panel-date.n-date-panel-date--selected .n-date-panel-date__sup {
+  background-color: #000 !important; 
+}
+
+.message-bubble {
+  border: 2px solid #cbfe00 !important;
+}
+
+svg.toggle-composer-icon {
+  color: #d6d7d8 !important;
+}
+
+/*******FULL IFRAME********/
+section.custom-link iframe {
+  height: 96vh !important;
+  margin-top: -6px !important;
+}
+
+button#forms-dropdown-btn-primary {
+  width: 50% !important;
+}
+
+button#funnel-website-btn-primary, button#forms-dropdown-btn-primary,
+button#surveys-dropdown-btn-primary, button#certificates-list-header-dropdown-btn-primary,
+button.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.shadow-sm.text-white.bg-apple-500.hover\:bg-apple-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-apple-500,
+button#payment-links-header-btn-primary {
+  border: 1px solid #cbfe00 !important;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.divider {
+  display: none !important;
+}
+
+a#addTaskButton, a#addNoteButton, a#addAppointmentButton {
+  background: var(--main-accent-color) !important;
+  color: #000 !important;
+}
+
+a#addTaskButton i.fa.fa-plus, a#addNoteButton i.fa.fa-plus,
+a#addAppointmentButton i.fa.fa-plus {
+  color: #000 !important;
+}
+
+div#hl_v2-user_switcher {
+  background: var(--main-brand-color-1) !important;
+}
+
+/* Chat Widget */
+
+.MuiStack-root.css-1kdwfva {
+  background: #1f1f2b !important;
+}
+
+div#engagement-widget-window a#tool-item-xN2J4TZHxwbOOm1uqXiyl {
+  color: #000 !important;
+}
+
+div#engagement-widget-window a#tool-item-RpcLaT-VI_uzXDTp5IfzG {
+  color: #000 !important;
+}
+
+a.MuiTypography-root.MuiTypography-body1.css-zwopii {
+  color: #cbff00 !important;
+}
+
+span.MuiTypography-root.MuiTypography-subtitle2.css-pfc29f {
+  color: #fefefe !important;
+}
+
+.sidebar-v2-location #conversations .hl_conversations--messages-list-v2 > div div:nth-child(2) span, .sidebar-v2-location #conversations .hl_conversations--messages-list-v2 > div div:nth-child(2) a {
+  font-size: 12px !important;
+}
