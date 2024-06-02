@@ -3,10 +3,10 @@
 /* We will find you. */
 
 /************* PMG Login Theme **************/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 :root {
     /* this overrides the default colors in the base css */
-    --main-font: "Poppins", sans-serif;
+    
     --main-body-bg: linear-gradient( 45deg, #292929 0%, #18191a 54%) !important;
     --main-body-image: url("https://storage.googleapis.com/msgsndr/7W9dXBz9LNBVeGvFZ2VG/media/65a1b058ed1fd55cd3ea330e.png") !important;
     --main-body-image-overlay: #ececec00(0 0 0 / 0) !important;
