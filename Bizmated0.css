@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
 
-body{
+--content-font: "League Spartan", sans-serif;{
  font-family: 'League Spartan', sans-serif !important;
 }
 
-nav a {font-family: 'League Spartan', sans-serif !important;}
+
