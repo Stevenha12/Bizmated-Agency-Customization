@@ -1,6 +1,4 @@
-@import url("https://ghlcusomizer.s3.amazonaws.com/font_awesome/css/all_with_font.css");
-
-
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
 
 :root {
   --base-white: #161718 !important;
@@ -113,16 +111,15 @@
   --main-notification-color: var(--main-accent-color) !important;
 
   --crm-delete-button-background: #fecdd6;
-
+  --content-font{font-family: 'League Spartan', sans-serif !important;}
   --panels-shadow: rgb(0 0 0 / 47%) 0px 19px 15px -20px !important;
 
   --full-crm-font-color: #ffffffd1;
   --main-white-color-opacity: 255, 255, 255;
   --button-icon-color: var(--full-crm-font-color);
 
-  --heading-font: "KoHo", sans-serif;
-  --content-font: "Ubuntu", sans-serif;
-  --font-awesome-family: "Font Awesome 5 Pro";
+
+ 
 
   --main-brand-color-1-opacity: 22, 23, 24;
   --main-brand-color-2-opacity: 30, 31, 32;
