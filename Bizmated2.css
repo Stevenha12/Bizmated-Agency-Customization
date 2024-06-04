@@ -151,8 +151,7 @@
 .hl_login--body .card .card-body .hl-btn {
     padding: 15px 25px !important;
     background-color: var(--login-button-bg);
-   
-    color: var(--login-button-color);
+       color: var(--login-button-color);
     font-size: 16px;
     text-transform: uppercase;
 }
