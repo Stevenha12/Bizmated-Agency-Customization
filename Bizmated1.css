@@ -104,10 +104,10 @@
   --dashboard-panel-text-open: var(--main-accent-color) !important;
   --dashboard-panel-text-closed: var(--main-accent-color) !important;
 
-  --funnel-color-default: #cbfe00 !important;
+  --funnel-color-default: #546AEA !important;
   --funnel-text-color: #8d8585 !important;
 
-  --funnel-color-1: #cbfe00 !important;
+  --funnel-color-1: #546AEA !important;
   --funnel-color-2: #A8F043 !important;
   --funnel-color-3: #84E387 !important;
   --funnel-color-4: #61D5CA !important;
@@ -283,20 +283,20 @@ div#CalendarsFeatureDiscovery .hl-wrapper-container {
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="#53B1FD"] {
-  fill: #CBFE00  !important;
+  fill: #546AEA  !important;
 }
 /* Open Charts */
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="rgb(83,177,253)"] {
-  fill: #CBFE00  !important;
+  fill: #546AEA  !important;
 }
 
 /* Open Charts Hover */
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="rgb(91,194,255)"] {
-  fill: #CBFE00  !important;
+  fill: #546AEA  !important;
 }
 
 /* Abandoned Small Bubble */
@@ -404,7 +404,7 @@ div#switcher-agency-switch path {
 }
 
 .message-bubble {
-  border: 2px solid #cbfe00 !important;
+  border: 2px solid #546AEA !important;
 }
 
 svg.toggle-composer-icon {
@@ -425,7 +425,7 @@ button#funnel-website-btn-primary, button#forms-dropdown-btn-primary,
 button#surveys-dropdown-btn-primary, button#certificates-list-header-dropdown-btn-primary,
 button.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.shadow-sm.text-white.bg-apple-500.hover\:bg-apple-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-apple-500,
 button#payment-links-header-btn-primary {
-  border: 1px solid #cbfe00 !important;
+  border: 1px solid #546AEA !important;
 }
 
 .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.divider {
