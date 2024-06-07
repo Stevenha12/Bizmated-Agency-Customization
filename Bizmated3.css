@@ -8,7 +8,7 @@
     /* this overrides the default colors in the base css */
     
     --main-body-bg: linear-gradient( 45deg, #292929 0%, #18191a 54%) !important;
-    --main-body-image: url("https://storage.googleapis.com/msgsndr/rgt01euiFLDwLNoBYbYm/media/66634fcf33c6bf46e0d5027d.png") !important;
+    --main-body-image: url("https://storage.googleapis.com/msgsndr/rgt01euiFLDwLNoBYbYm/media/6663544e6cee2be8085f2c53.png") !important;
     --main-body-image-overlay: #ececec00(0 0 0 / 0) !important;
     --main-login-bg: #ededed00 !important;
     --login-logo: url("https://storage.googleapis.com/msgsndr/rgt01euiFLDwLNoBYbYm/media/666350050f101bac7eb1c2db.png") !important;
