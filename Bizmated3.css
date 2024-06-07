@@ -8,10 +8,10 @@
     /* this overrides the default colors in the base css */
     
     --main-body-bg: linear-gradient( 45deg, #292929 0%, #18191a 54%) !important;
-    --main-body-image: url("https://storage.googleapis.com/msgsndr/7W9dXBz9LNBVeGvFZ2VG/media/65a1b058ed1fd55cd3ea330e.png") !important;
+    --main-body-image: url("https://storage.googleapis.com/msgsndr/rgt01euiFLDwLNoBYbYm/media/66634fcf33c6bf46e0d5027d.png") !important;
     --main-body-image-overlay: #ececec00(0 0 0 / 0) !important;
     --main-login-bg: #ededed00 !important;
-    --login-logo: url("https://storage.googleapis.com/msgsndr/7W9dXBz9LNBVeGvFZ2VG/media/65a15640c335181d3530523b.png") !important;
+    --login-logo: url("https://storage.googleapis.com/msgsndr/rgt01euiFLDwLNoBYbYm/media/666350050f101bac7eb1c2db.png") !important;
     --login-heading-color: #fff !important;
     --login-input-color: #000 !important;
     --login-input-bg: #546AEA !important;
