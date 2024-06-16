@@ -64,6 +64,8 @@ body{font-family: 'League Spartan', sans-serif !important;}
   --shadow-lg: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
     0px 4px 6px -2px rgba(16, 24, 40, 0.03);
 }
+/* For Conversation AI Saad added it */
+#auto-reply , #off, #suggestive{background-color: #1F1F2B}
 
 /* For Dashboard Funnel Stages */
 :root {
