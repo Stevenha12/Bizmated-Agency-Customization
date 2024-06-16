@@ -67,6 +67,11 @@ body{font-family: 'League Spartan', sans-serif !important;}
 /* For Conversation AI Saad added it */
 #auto-reply , #off, #suggestive{background-color: #1F1F2B}
 
+/* Reviews AI Saad added it */
+#reputation-settings-container .hl-card .hl-radio-group-item{
+ background-color:#1f1f2b;
+}
+
 /* For Dashboard Funnel Stages */
 :root {
 
