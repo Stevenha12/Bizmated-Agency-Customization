@@ -1,12 +1,9 @@
-
-
-
 :root {
   --main-brand-color-1: #1f1f2b;
   --main-brand-color-2: #22242d;
   --main-brand-color-3: #312f3b;
   --main-brand-color-4: #14151e;
-  --main-accent-color: #546AEA;
+  --main-accent-color: #cbfe00;
   --main-accent-text-color: #fff;
   --crm-danger-color: #ea2116;
   --crm-warning-color: #918501;
@@ -91,7 +88,7 @@
   /* --custom-loading-icon-gradient-1: #ffffff; */;
   --custom-loading-icon-gradient-2: var(--main-brand-color-1)
     /* --custom-loading-icon-gradient-2: #eeeeee; */;
-  --custom-loading-icon: url(https://storage.googleapis.com/msgsndr/rgt01euiFLDwLNoBYbYm/media/6663544e6cee2be8085f2c53.png) /* Update URL */;
+  --custom-loading-icon: url(https://storage.googleapis.com/msgsndr/7W9dXBz9LNBVeGvFZ2VG/media/65a15640c379081c31eb8b49.png) /* Update URL */;
   --custom-loading-icon-width: 94px;
   --custom-loading-icon-height: 94px;
   --custom-loading-font-color: #e9e9e9 !important;
@@ -104,10 +101,10 @@
   --dashboard-panel-text-open: var(--main-accent-color) !important;
   --dashboard-panel-text-closed: var(--main-accent-color) !important;
 
-  --funnel-color-default: #546AEA !important;
+  --funnel-color-default: #cbfe00 !important;
   --funnel-text-color: #8d8585 !important;
 
-  --funnel-color-1: #546AEA !important;
+  --funnel-color-1: #cbfe00 !important;
   --funnel-color-2: #A8F043 !important;
   --funnel-color-3: #84E387 !important;
   --funnel-color-4: #61D5CA !important;
@@ -283,20 +280,20 @@ div#CalendarsFeatureDiscovery .hl-wrapper-container {
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="#53B1FD"] {
-  fill: #546AEA  !important;
+  fill: #CBFE00  !important;
 }
 /* Open Charts */
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="rgb(83,177,253)"] {
-  fill: #546AEA  !important;
+  fill: #CBFE00  !important;
 }
 
 /* Open Charts Hover */
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="rgb(91,194,255)"] {
-  fill: #546AEA  !important;
+  fill: #CBFE00  !important;
 }
 
 /* Abandoned Small Bubble */
@@ -404,7 +401,7 @@ div#switcher-agency-switch path {
 }
 
 .message-bubble {
-  border: 2px solid #546AEA !important;
+  border: 2px solid #cbfe00 !important;
 }
 
 svg.toggle-composer-icon {
@@ -425,7 +422,7 @@ button#funnel-website-btn-primary, button#forms-dropdown-btn-primary,
 button#surveys-dropdown-btn-primary, button#certificates-list-header-dropdown-btn-primary,
 button.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.shadow-sm.text-white.bg-apple-500.hover\:bg-apple-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-apple-500,
 button#payment-links-header-btn-primary {
-  border: 1px solid #546AEA !important;
+  border: 1px solid #cbfe00 !important;
 }
 
 .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.divider {
@@ -470,4 +467,28 @@ span.MuiTypography-root.MuiTypography-subtitle2.css-pfc29f {
 
 .sidebar-v2-location #conversations .hl_conversations--messages-list-v2 > div div:nth-child(2) span, .sidebar-v2-location #conversations .hl_conversations--messages-list-v2 > div div:nth-child(2) a {
   font-size: 12px !important;
+}
+
+button#backToProducts span.n-button__content {
+  color: #000 !important;
+}
+
+
+@media only screen and (max-width: 1280px) {
+  .sidebar-v2-location .hl_wrapper.hl_topbar-tabs,
+  .sidebar-v2-location .hl_wrapper.hl_topbar-tabs#paymentlinksDashboardApp {
+    padding-top: 150px !important;
+}
+}
+
+div#OpportunitiesList .tabulator .tabulator-header .tabulator-col span path {
+  stroke: #000 !important;
+}
+
+.n-switch.n-switch--active .n-switch__rail .n-switch__button {
+  background: #000 !important;
+}
+
+body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a img, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a img, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a img, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a img, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a img, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a img {
+  filter: invert(0) !important;
 }
