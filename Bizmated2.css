@@ -3,7 +3,7 @@
 body{
  font-family: 'League Spartan', sans-serif !important;
 }
-
+ /* this overrides the default colors in the base css */
 :root {
     /* this overrides the default colors in the base css */
     
