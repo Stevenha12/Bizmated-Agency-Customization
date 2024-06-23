@@ -1,25 +1,25 @@
-/* Theme Designed by Titan Media Marketing / Pimp My GHL */
+v/* ThTheme Designed by Titan Media Marketing / Pimp My GHL */
 /* Do not use without permission */
 /* We will find you. */
 
 /************* PMG Login Theme **************/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 :root {
     /* this overrides the default colors in the base css */
-    --main-font: "Poppins", sans-serif;
+    
     --main-body-bg: linear-gradient( 45deg, #292929 0%, #18191a 54%) !important;
-    --main-body-image: url("https://storage.googleapis.com/msgsndr/7W9dXBz9LNBVeGvFZ2VG/media/65a1b058ed1fd55cd3ea330e.png") !important;
+    --main-body-image: url("https://storage.googleapis.com/msgsndr/H4xf1ZuFYRFCW5GHvtTm/media/66638e617416efb94e5faf5f.png") !important;
     --main-body-image-overlay: #ececec00(0 0 0 / 0) !important;
     --main-login-bg: #ededed00 !important;
-    --login-logo: url("https://storage.googleapis.com/msgsndr/7W9dXBz9LNBVeGvFZ2VG/media/65a15640c335181d3530523b.png") !important;
+    --login-logo: url("https://storage.googleapis.com/msgsndr/rgt01euiFLDwLNoBYbYm/media/666355821b8465f8dfa41800.png") !important;
     --login-heading-color: #fff !important;
     --login-input-color: #000 !important;
-    --login-input-bg: #cbfe00 !important;
+    --login-input-bg: #546AEA !important;
     --login-input-border: #bbbbbb !important;
     --login-error-color: #000 !important;
     --login-forgot-pass-color: #ffffff !important;
-    --login-button-bg: #cbfe00 !important;
-    --login-button-color: #fff !important;
+    --login-button-bg: #546AEA !important;
+    --login-button-color: #white !important;
     --login-button-hover-bg: #000  !important;
     --login-button-hover-color: #ffffff !important;
     --login-foot-note-color: #fff !important;
@@ -105,7 +105,7 @@ button:disabled {
 
 .hl_login--body .card button.hl-btn.justify-center.w-full.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600 {
     background: var(--login-button-bg) !important;
-    color: #000 !important;
+    color: #FFFFFF !important;
 }
 
 .hl_login--body .container-fluid > div:not(.card) .card .card-body input {
