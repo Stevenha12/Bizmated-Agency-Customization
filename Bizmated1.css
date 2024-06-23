@@ -351,7 +351,7 @@ body[data-theme=default-dark-v1] .hl_conversations--message>.hl_conversations--m
 }
 
 .fc-timegrid-event-harness-inset .fc-timegrid-event, .fc-timegrid-event.fc-event-mirror, .fc-timegrid-more-link {
-  box-shadow: 0 0 0 2px #cbef00 !important;
+  box-shadow: 0 0 0 2px #546aea !important;
 }
 
 .fc-theme-standard .fc-scrollgrid {
