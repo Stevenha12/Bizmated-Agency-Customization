@@ -1,17 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
-
-body{
- font-family: 'League Spartan', sans-serif !important;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 :root {
     /* this overrides the default colors in the base css */
-    
+    --main-font: "Poppins", sans-serif;
     --main-body-bg: #ffffff;
     --main-body-image: url("https://storage.googleapis.com/msgsndr/FQK1qJZEzoiNmUweP8No/media/62fedd10dad501aaa6e189c5.jpeg");
     --main-body-image-overlay: rgba(0, 0, 0, 0.098);
     --main-login-bg: #fff;
-    --login-logo: url("https://storage.googleapis.com/msgsndr/rgt01euiFLDwLNoBYbYm/media/66634fcf33c6bf46e0d5027d.png");
+    --login-logo: url("https://yourimagehere.com/image");
     --login-heading-color: #282828;
     --login-input-color: #363636;
     --login-input-bg: transparent;
@@ -50,7 +45,9 @@ body{
 }
 
 /* Theme Style */
-
+body .hl_login--body {
+    font-family: var(--main-font);
+}
 .hl_login {
     background: var(--main-body-bg) !important;
     margin-top: 0 !important;
@@ -156,7 +153,8 @@ body{
 .hl_login--body .card .card-body .hl-btn {
     padding: 15px 25px !important;
     background-color: var(--login-button-bg);
-       color: var(--login-button-color);
+    font-family: var(--main-font) !important;
+    color: var(--login-button-color);
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -389,3 +387,4 @@ body{
     cursor: pointer;
     text-indent: 20px;
 }
+
