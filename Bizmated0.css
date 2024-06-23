@@ -1,6 +1,6 @@
 @import url("https://ghlcusomizer.s3.amazonaws.com/font_awesome/css/all_with_font.css");
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
-body{font-family: 'League Spartan', sans-serif !important;}
+
+
 :root {
   --base-white: #161718 !important;
   --base-black: #ffffff !important;
@@ -65,13 +65,6 @@ body{font-family: 'League Spartan', sans-serif !important;}
   --shadow-lg: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
     0px 4px 6px -2px rgba(16, 24, 40, 0.03);
 }
-/* For Conversation AI Saad added it */
-#auto-reply , #off, #suggestive{background-color: #1F1F2B}
-
-/* Reviews AI Saad added it */
-#reputation-settings-container .hl-card .hl-radio-group-item{
- background-color:#1f1f2b;
-}
 
 /* For Dashboard Funnel Stages */
 :root {
@@ -119,15 +112,16 @@ body{font-family: 'League Spartan', sans-serif !important;}
   --main-notification-color: var(--main-accent-color) !important;
 
   --crm-delete-button-background: #fecdd6;
-  --content-font{font-family: 'League Spartan', sans-serif !important;}
+
   --panels-shadow: rgb(0 0 0 / 47%) 0px 19px 15px -20px !important;
 
   --full-crm-font-color: #ffffffd1;
   --main-white-color-opacity: 255, 255, 255;
   --button-icon-color: var(--full-crm-font-color);
 
-
- 
+  --heading-font: "KoHo", sans-serif;
+  --content-font: "Ubuntu", sans-serif;
+  --font-awesome-family: "Font Awesome 5 Pro";
 
   --main-brand-color-1-opacity: 22, 23, 24;
   --main-brand-color-2-opacity: 30, 31, 32;
@@ -1965,6 +1959,11 @@ body #ads-report .table tbody tr {
 
 body .header-background {
   background-color: var(--main-brand-color-2) !important;
+}
+
+body .n-radio-group .n-radio-button {
+  background-color: var(--main-brand-color-1) !important;
+  border-color: var(--main-brand-color-1) !important;
 }
 
 body .n-radio-group .n-radio-button.n-radio-button--checked {
@@ -6479,6 +6478,8 @@ button#id-935510, button#id-968032, button#id-741751 {
   border: 1px solid #0000 !important;
 }
 
+.group.h-full.crm-opportunities-stages-distribution path,
+.group.h-full.crm-opportunities-status path[stroke-linecap="round"],
 .group.h-full.crm-opportunities-status .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card .hl-card-content path[stroke-linecap="round"],
 .group.h-full.crm-opportunities-value path[stroke-linecap="round"],
 .group.h-full.crm-opportunities-funnel path[stroke-linecap="round"],
@@ -6487,6 +6488,7 @@ button#id-935510, button#id-968032, button#id-741751 {
     fill: #0000 !important;
 }
 
+.group.h-full.crm-opportunities-status path[stroke-linecap="round"],
 .group.h-full.crm-opportunities-status .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card .hl-card-content path[stroke-linecap="round"],
 .group.h-full.crm-opportunities-value path[stroke-linecap="round"],
 .group.h-full.crm-opportunities-funnel path[stroke-linecap="round"],
@@ -6878,4 +6880,233 @@ div#mceu_16-body, div#mceu_22-body, .message-box {
 
 div#hl-loc-level-header, div#template-library-modal .custom-container, div#template-library-modal .flex.justify-center.w-full {
   background: var(--main-brand-color-3) !important;
+}
+
+.sass-banner__updates {
+  background: var(--main-brand-color-3) !important;
+}
+
+button#pendo-button-3663659d, .saas-banner__learn-btn.btn {
+  background: var(--main-accent-color) !important;
+  color: var(--main-accent-text-color) !important;
+}
+
+html body #pendo-guide-container {
+  background-color: var(--main-brand-color-2) !important;
+}
+
+button#backToProducts {
+  background: var(--main-accent-color) !important;
+  color: var(--main-accent-text-color) !important;
+}
+
+.hl-toolbar.light {
+  border-bottom: 1px solid var(--base-white) !important;
+}
+
+.pt-2.fixed.w-full.mt-0.hl-toolbar.light {
+  background: var(--main-brand-color-2)!important;
+}
+
+div#left-section {
+  background: var(--base-white) !important;
+}
+
+div#dropdowns {
+  background: var(--base-white) !important;
+}
+
+.n-checkbox .n-checkbox-box {
+  background-color: #fff !important;
+}
+
+.dropdown-tree__container {
+  background: var(--main-brand-color-3) !important;
+}
+
+a.dropdown-tree__item {
+  background: var(--main-brand-color-4) !important;
+}
+
+.quick-filter-bar .advanced-container .button.active,
+.count {
+  background: var(--main-brand-color-4) !important;
+  border-color: var(--main-accent-color) !important;
+}
+
+.d-flex.views {
+  border-color: var(--main-accent-color) !important;
+}
+
+.quick-filter-bar .right-box .search-box {
+  background: var(--main-brand-color-3) !important;
+}
+
+span.kanban.cursor-pointer,
+span.list.cursor-pointer {
+  background: var(--main-brand-color-1) !important;
+  border-color: var(--main-brand-color-3) !important;
+}
+
+span.list.cursor-pointer.active,
+span.kanban.cursor-pointer.active,
+.views span.active[data-v-f378b95a] {
+  background: var(--main-brand-color-3) !important;
+  border-color: var(--main-brand-color-3) !important;
+}
+
+button.add-opportunity {
+  background: var(--main-brand-color-3) !important;
+}
+
+.sort-menu {
+  background: var(--main-brand-color-1) !important;
+}
+
+.sort-menu span, 
+div#data-filter .flex.h-5.w-5.cursor-pointer.items-center.justify-center.rounded-\[50\%\].bg-blue-100.text-blue-500 {
+  background: var(--main-accent-color) !important;
+  color: var(--main-accent-text-color) !important;
+}
+
+div#data-filter .n-switch__rail {
+  border: 1px solid #fff !important;
+}
+
+/* Opportunities New List View */
+/* Top List Bar */
+div#OpportunitiesList .tabulator .tabulator-header .tabulator-col {
+  background: var(--main-brand-color-4) !important;
+}
+/* Left Side (Names) */
+.tabulator-cell.clickable.tabulator-frozen.tabulator-frozen-left {
+  background: var(--main-brand-color-1) !important;
+}
+/* All Cells */
+.tabulator-cell {
+  background: var(--main-brand-color-3) !important;
+}
+/* Avatars */
+.contact.my-tooltip {
+  background: var(--main-accent-color) !important;
+  color: var(--main-accent-text-color) !important;
+}
+
+div#OpportunitiesList .tabulator .tabulator-header .tabulator-col span {
+  background: var(--main-accent-color) !important;
+  color: var(--main-accent-text-color) !important;
+}
+
+.tabulator .tabulator-footer .tabulator-footer-contents {
+  background: var(--main-brand-color-4) !important;
+}
+
+.tabulator .tabulator-paginator .tabulator-page[aria-label="Prev Page"]::before,
+.tabulator .tabulator-paginator .tabulator-page[aria-label="Next Page"]::after {
+  filter: invert(1) !important;
+}
+
+.tabulator .tabulator-paginator .tabulator-page[aria-label="Prev Page"]:hover, 
+.tabulator .tabulator-paginator .tabulator-page[aria-label="Next Page"]:hover {
+  color: #fff !important;
+}
+
+button.tabulator-page.active {
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+.tabulator .tabulator-pages button.active {
+  background: var(--main-brand-color-3) !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+  border-color: #fff !important;
+}
+
+.tabulator-cell.no-padding div.my-tooltip {
+  background: var(--main-brand-color-4) !important;
+}
+
+.tabulator-cell.no-padding div {
+  background: var(--main-brand-color-3) !important;
+}
+
+.d-flex.view.cursor-pointer.active:after {
+  background-color: var(--main-accent-color) !important;
+}
+
+div#OpportunitiesList .tabulator .tabulator-header .tabulator-col span path {
+  stroke: var(--main-accent-text-color) !important;
+}
+
+button#analytics-header-info-icon {
+  background: var(--main-accent-color) !important;
+}
+
+label.n-radio-button.p-0.hl-radio-group-item.compact-radio-item {
+  background: var(--main-brand-color-1) !important;
+}
+
+.popover {
+  background: var(--main-brand-color-1) !important;
+}
+
+.vue-echarts-inner div[style="z-index: 9999999;"] {
+  background: #000 !important;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort="descending"] .tabulator-col-content .tabulator-col-sorter {
+  color: #fff !important;
+}
+
+.limit-badge {
+  background: var(--main-brand-color-3) !important;
+}
+
+.hl-statistic {
+  background: var(--main-brand-color-3) !important;
+}
+
+div#TabSMSProvider uitextlgmedium.text-gray-900 {
+  color: #fff !important;
+}
+
+div#TabSMSProvider uitextsmregular.text-gray-600 {
+  color: #a0a0a0 !important;
+}
+
+.status-tag.--pending {
+  background: var(--main-brand-color-3) !important;
+}
+
+.summary-card__wrap[data-v-24b9fa32] {
+  margin: 5px 10px !important;
+}
+
+.ghl-table-footer uitextsmmedium.text-gray-700 {
+  color: #fff !important;
+}
+
+.page-heading[data-v-ce9cdc0a] {
+  color: #fff !important;
+}
+
+.n-switch .n-switch__rail {
+  background: var(--main-brand-color-3) !important;
+}
+
+html body .n-switch.n-switch--active .n-switch__rail {
+  background: var(--main-accent-color) !important;
+}
+
+.n-switch.n-switch--active .n-switch__rail .n-switch__button {
+  background: var(--main-accent-text-color) !important;
+}
+
+div#cpSettingsPage .font-sans.hl-wrapper-container.bg-white {
+  background: var(--main-brand-color-2) !important;
+}
+
+div#cpSettingsPage h2.mt-12.mb-4.font-normal {
+  color: #fff !important;
 }
