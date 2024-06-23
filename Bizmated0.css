@@ -4079,7 +4079,7 @@ body #hl_smartlists-main .icon-sms2::before {
   justify-content: center !important;
   font-weight: 400 !important;
   font-family: "Font Awesome 5 Pro" !important;
-  color: var(--full-crm-font-color) !important;
+  color: white !important;
 }
 
 body .hl_tasks--appointment-detail {
