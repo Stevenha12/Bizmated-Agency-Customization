@@ -283,7 +283,7 @@ body{font-family: 'League Spartan', sans-serif !important;}
   --top-menu-nav-border-radius: 4px;
   --top-menu-nav-active-box-shadow: none;
 
-  --top-menu-nav-title-font-size: 20px;
+  --top-menu-nav-title-font-size: 18px;
   --top-menu-nav-title-font-color: rgba(var(--main-white-color-opacity), 0.85);
   --top-menu-nav-title-font-weight: 700;
   --top-menu-nav-title-font-family: var(--heading-font);
