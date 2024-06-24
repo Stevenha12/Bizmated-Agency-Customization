@@ -270,7 +270,7 @@
 /* For Top Nav */
 :root {
   /* Top Menu Root */
-  --top-menu-nav-font-size: 16px;
+  --top-menu-nav-font-size: 14px;
   --top-menu-nav-font-color: var(--full-crm-font-color);
   --top-menu-nav-active-border-color: rgba(var(--main-white-color-opacity),
       0.25);
