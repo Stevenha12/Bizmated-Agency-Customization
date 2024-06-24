@@ -1845,7 +1845,7 @@ html body .hl_header > .container-fluid {
 }
 
 html body .hl_header > .container-fluid + .topmenu-nav {
-  padding: 5px !important;
+  padding: 0px !important;
 }
 
 .sidebar-v2-location .hl_header .topmenu-nav .topmenu-navitem img {
