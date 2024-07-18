@@ -1,5 +1,3 @@
-.views span.active[data-v-d2246f94] {
-    background-color: #312F3B !important;}
 
 
 :root {
@@ -472,3 +470,9 @@ span.MuiTypography-root.MuiTypography-subtitle2.css-pfc29f {
 .sidebar-v2-location #conversations .hl_conversations--messages-list-v2 > div div:nth-child(2) span, .sidebar-v2-location #conversations .hl_conversations--messages-list-v2 > div div:nth-child(2) a {
   font-size: 12px !important;
 }
+
+/* Active */
+#OpportunitiesList .hl-wrapper-container .n-config-provider .opportunityPage #newTopBar .pipeline-ribbon .right-box .views .active{
+ background-color:#312f3b !important;
+}
+
