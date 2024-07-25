@@ -1,7 +1,4 @@
- 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzBGYBOi1kKIoOIkwA5OnzbJWbuW16R3Y&libraries=places"></script>
- <script defer>
+
 function attachAutocompleteToElement(querySelector) {
     console.log("loaded buddy!");
     let inputElement = document.querySelector(querySelector);
