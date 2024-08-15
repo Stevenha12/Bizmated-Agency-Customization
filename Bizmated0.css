@@ -5665,9 +5665,10 @@ section#trigger-links .table-wrap, .card.hl_customer-acquisition--table .hl-tabl
 
 /** Adds gross hover affect on text **/
 
+/*
 .crm-opportunities-value .echarts svg:hover g path {
   fill: var(--main-accent-color) !important;
-}
+}*/
 
 .group.h-full.crm-opportunities-value path[fill="none"] {
   fill: #0000 !important;
