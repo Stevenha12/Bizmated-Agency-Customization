@@ -912,6 +912,10 @@ html body .filter-option-inner-inner {
   color: var(--full-crm-font-color) !important;
 }
 
+body text {
+  fill: var(--full-crm-font-color) !important;
+}
+
 html body span,
 html body a,
 html body p,
