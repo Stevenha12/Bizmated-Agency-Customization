@@ -5811,7 +5811,7 @@ div[style="margin: 0px 0 0;line-height:1;"] span[style="float:right;margin-left:
 
 /* Dashboard Funnel Colors */
 .group.h-full.crm-opportunities-funnel path {
-  fill: var(--funnel-color-default);
+  fill: transparent !important;
 }
 
 .group.h-full.crm-opportunities-funnel path[fill="none"] {
