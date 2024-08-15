@@ -1742,10 +1742,10 @@ html body .launchpad-bottom-border {
   background-color: var(--main-brand-color-3) !important;
   border-color: var(--main-brand-color-3) !important;
 }
-
+/*
 .crm-opportunities-status .echarts svg:hover g path {
   fill: var(--main-brand-color-2) !important;
-}
+}*/
 
 .crm-opportunities-funnel #chart div:last-child {
   background-color: var(--main-brand-color-3) !important;
