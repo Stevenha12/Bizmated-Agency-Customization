@@ -76,6 +76,9 @@ body{font-family: 'League Spartan', sans-serif !important;}
 
 .manage-settings-button .n-button--primary-type[data-v-10a7e7ad]{background-color: #312F3B !important;}
 
+/* in agency view>rebilling */
+.separator span[data-v-f9c40edc]{background-color: #1F1F2B !important;}
+
 /* For Dashboard Funnel Stages */
 :root {
 
