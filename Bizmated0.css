@@ -81,6 +81,9 @@ body{font-family: 'League Spartan', sans-serif !important;}
 /* in agency view>rebilling */
 .separator span[data-v-f9c40edc]{background-color: #1F1F2B !important;}
 
+/* in client portal>settings>branding */
+.n-upload-dragger{background-color: black !important;}
+
 /* For Dashboard Funnel Stages */
 :root {
 
