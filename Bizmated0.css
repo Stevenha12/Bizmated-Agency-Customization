@@ -83,6 +83,7 @@ body{font-family: 'League Spartan', sans-serif !important;}
 
 /* in client portal>settings>branding */
 .n-upload-dragger{background-color: black !important;}
+.n-upload-dragger:hover{border-color: #546AEA !important;}
 .n-upload-file-info:hover{
  background-color:black !important;
 }
