@@ -72,9 +72,11 @@ body{font-family: 'League Spartan', sans-serif !important;}
 .n-tabs .n-tabs-nav.n-tabs-nav--line-type.n-tabs-nav--top .n-tabs-nav-scroll-content{background-color: #22242D !important;}
 
 /* in settings>integrations */
-.hl-banner-GBP[data-v-3aa22a24]{background-color: #1E1F20 !important;}
+#app div .hl-banner-GBP{
+ background-color:#1e1f20 !important;
+}
 
-.manage-settings-button .n-button--primary-type[data-v-10a7e7ad]{background-color: #312F3B !important;}
+#gmb-pages{background-color: #312F3B !important;}
 
 /* in agency view>rebilling */
 .separator span[data-v-f9c40edc]{background-color: #1F1F2B !important;}
