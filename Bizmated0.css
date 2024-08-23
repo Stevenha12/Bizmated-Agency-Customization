@@ -68,6 +68,11 @@ body{font-family: 'League Spartan', sans-serif !important;}
     0px 4px 6px -2px rgba(16, 24, 40, 0.03);
 }
 
+/* Font medium when logged in as a different user*/
+.hl_header .justify-center .font-medium{
+ background-color:#22242d !important;
+}
+
 /* in sites>Wordpress  */
 .n-tabs .n-tabs-nav.n-tabs-nav--line-type.n-tabs-nav--top .n-tabs-nav-scroll-content{background-color: #22242D !important;}
 
