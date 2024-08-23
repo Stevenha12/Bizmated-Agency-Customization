@@ -5663,7 +5663,7 @@ section#trigger-links .table-wrap, .card.hl_customer-acquisition--table .hl-tabl
 }
 
 /** Adds gross hover affect on text **/
-
+/**
 .crm-opportunities-status .echarts svg:hover g path {
   fill: var(--main-accent-color) !important;
 }
@@ -5671,14 +5671,14 @@ section#trigger-links .table-wrap, .card.hl_customer-acquisition--table .hl-tabl
 .crm-opportunities-status .echarts svg:hover g path[fill="none"] {
   fill: #0000 !important;
 }
-
+**/
 .crm-opportunities-value .echarts svg g path:first-child {
   fill: var(--main-accent-color) !important;
 }
 
 .crm-opportunities-value .echarts svg g path:nth-child(6) {
   fill: var(--main-accent-color) !important;
-}
+} 
 
 .crm-opportunities-value .echarts > div:nth-child(2) {
   background-color: var(--main-brand-color-3) !important;
