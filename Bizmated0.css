@@ -5748,12 +5748,12 @@ section#trigger-links .table-wrap, .card.hl_customer-acquisition--table .hl-tabl
 .hl-card-content path[fill="rgb(34,204,238)"] {
   fill: var(--dashboard-panel-text-closed) !important;
 }
-/* Won Charts Hover */
+/* Won Charts Hover 
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="rgb(37,224,255)"] {
   fill: var(--dashboard-panel-text-closed) !important;
-}
+}*/
 
 /* Open Small Bubble */
 .group.h-full.crm-opportunities-status 
