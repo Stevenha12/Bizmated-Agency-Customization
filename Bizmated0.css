@@ -5768,12 +5768,12 @@ section#trigger-links .table-wrap, .card.hl_customer-acquisition--table .hl-tabl
   fill: var(--dashboard-panel-text-open) !important;
 }
 
-/* Open Charts Hover */
+/* Open Charts Hover 
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="#A4A4A5"] {
   fill: var(--dashboard-panel-text-open) !important;
-}
+}*/
 
 /* Abandoned Small Bubble */
 .group.h-full.crm-opportunities-status 
