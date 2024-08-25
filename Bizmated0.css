@@ -5896,7 +5896,7 @@ div[style="margin: 0px 0 0;line-height:1;"] span[style="float:right;margin-left:
   fill-opacity: 1 !important;
 }
 
-/* Custom Funnel Colors Hover */
+/* Custom Funnel Colors Hover 
 .group.h-full.crm-opportunities-funnel .hl-card-content path[fill="rgb(91,194,255)"] {
   fill: var(--funnel-color-1-hover) !important;
 }
@@ -5926,7 +5926,7 @@ div[style="margin: 0px 0 0;line-height:1;"] span[style="float:right;margin-left:
 }
 .group.h-full.crm-opportunities-funnel .hl-card-content path[fill="rgb(145,190,255)"] {
   fill: var(--funnel-color-10-hover) !important;
-}
+} */
 
 /* Funnel Text Colors Fix */
 .group.h-full.crm-opportunities-funnel
