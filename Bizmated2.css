@@ -8,10 +8,10 @@ body{
     /* this overrides the default colors in the base css */
     
     --main-body-bg: #ffffff;
-    --main-body-image: url("https://storage.googleapis.com/revex-client-portal-production/rgt01euiFLDwLNoBYbYm/settings/9937ff83-8b70-4778-8711-1783811edf84");
+    --main-body-image: url("https://storage.googleapis.com/msgsndr/rgt01euiFLDwLNoBYbYm/media/66ca818ad6d90bc82f11d9a3.png");
     --main-body-image-overlay: rgba(0, 0, 0, 0.098);
     --main-login-bg: #fff;
-    --login-logo: url("https://storage.googleapis.com/msgsndr/rgt01euiFLDwLNoBYbYm/media/66634fcf33c6bf46e0d5027d.png");
+    --login-logo: url("https://storage.googleapis.com/msgsndr/rgt01euiFLDwLNoBYbYm/media/66ca81cbd6d90bb2a511d9b4.png");
     --login-heading-color: #282828;
     --login-input-color: #363636;
     --login-input-bg: transparent;
