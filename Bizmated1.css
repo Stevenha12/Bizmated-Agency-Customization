@@ -259,24 +259,24 @@ div#CalendarsFeatureDiscovery .hl-wrapper-container {
   stroke: #0000 !important;
 }
 
-/* Won Small Bubble */
+/* Won Small Bubble 
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="#22CCEE"] {
-  fill: #7a9900 !important;
+  fill: #7a9900 !important;*/
 }
-/* Won Charts */
+/* Won Charts 
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="rgb(34,204,238)"] {
   fill: #7a9900 !important;
-}
-/* Won Charts Hover */
+}*/
+/* Won Charts Hover 
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="rgb(37,224,255)"] {
   fill: #7a9900 !important;
-}
+}*/
 
 /* Open Small Bubble */
 .group.h-full.crm-opportunities-status 
@@ -284,40 +284,40 @@ div#CalendarsFeatureDiscovery .hl-wrapper-container {
 .hl-card-content path[fill="#53B1FD"] {
   fill: #546AEA  !important;
 }
-/* Open Charts */
+/* Open Charts 
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="rgb(83,177,253)"] {
   fill: #546AEA  !important;
-}
+}*/
 
-/* Open Charts Hover */
+/* Open Charts Hover 
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="rgb(91,194,255)"] {
   fill: #546AEA  !important;
-}
+}*/
 
-/* Abandoned Small Bubble */
+/* Abandoned Small Bubble 
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="#8098F9"] {
   fill: #546900  !important;
-}
+}*/
 
- /* Abandoned Charts */
+ /* Abandoned Charts 
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="rgb(128,152,249)"] {
   fill: #546900  !important;
-}
+}*/
 
-/* Abandoned Charts Hover */
+/* Abandoned Charts Hover 
 .group.h-full.crm-opportunities-status 
 .w-full.h-full.flex.flex-col.chart-container.dashboard-widget-type-custom.dashboard-widget-module-custom.hl-card 
 .hl-card-content path[fill="rgb(140,167,255)"] {
   fill: #546900  !important;
-}
+}*/
 
 button#lki4VEKAMpGqEj4vMQnl {
   background: var(--main-accent-color) !important;
