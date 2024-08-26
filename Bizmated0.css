@@ -1754,7 +1754,7 @@ html body .launchpad-bottom-border {
   border-color: rgba(var(--main-white-color-opacity), 0.25) !important;
 }
 
-/* For Dashboard */
+/* For Dashboard 
 .crm-opportunities-funnel #chart path[fill="#EAECF0"] {
   fill: var(--main-brand-color-3) !important;
 }
@@ -1770,16 +1770,16 @@ html body .launchpad-bottom-border {
 .crm-opportunities-status .echarts > div:nth-child(2) {
   background-color: var(--main-brand-color-3) !important;
   border-color: var(--main-brand-color-3) !important;
-}
+}*/
 /*
 .crm-opportunities-status .echarts svg:hover g path {
   fill: var(--main-brand-color-2) !important;
 }*/
-
+/*
 .crm-opportunities-funnel #chart div:last-child {
   background-color: var(--main-brand-color-3) !important;
-}
-
+}*/
+/*
 .crm-opportunities-value .echarts svg g path:first-child {
   fill: var(--main-brand-color-2) !important;
 }
@@ -1791,12 +1791,12 @@ html body .launchpad-bottom-border {
 .crm-opportunities-value .echarts > div:nth-child(2) {
   background-color: var(--main-brand-color-3) !important;
   border-color: var(--main-brand-color-3) !important;
-}
+}*/
 /*
 .crm-opportunities-value .echarts svg:hover g path {
   fill: var(--main-brand-color-2) !important;
 }*/
-
+/*
 .crm-opportunities-value #chart div:last-child {
   background-color: var(--main-brand-color-2) !important;
 }
@@ -1823,7 +1823,7 @@ html body .launchpad-bottom-border {
 
 .crm-opportunities-conversion-rate #chart div:last-child {
   background-color: var(--main-brand-color-3) !important;
-}
+}/*
 
 body .no-data-message {
   background-color: var(--main-brand-color-3) !important;
