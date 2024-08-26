@@ -5945,10 +5945,10 @@ div[style="margin: 0px 0 0;line-height:1;"] span[style="float:right;margin-left:
   fill: var(--funnel-color-default);
 }
 
-/* Stage Distribution Hover Box */
+/* Stage Distribution Hover Box 
 .group.h-full.crm-opportunities-stages-distribution x-vue-echarts#chart div:first-child {
   background: var(--main-brand-color-1) !important;
-}
+}*/
 
 .group.h-full.crm-opportunities-stages-distribution x-vue-echarts#chart div,
 .group.h-full.crm-opportunities-stages-distribution x-vue-echarts#chart div[style="margin: 0px 0 0;line-height:1;"] {
