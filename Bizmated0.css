@@ -5651,7 +5651,7 @@ section#trigger-links .table-wrap, .card.hl_customer-acquisition--table .hl-tabl
 .crm-opportunities-funnel #chart path[fill="#EAECF0"] {
   fill: var(--main-brand-color-3) !important;
 }
-/* Opportunities */
+/* Opportunities 
 .crm-opportunities-status .echarts svg g path:first-child {
   fill: var(--main-accent-color) !important;
 }
@@ -5677,8 +5677,8 @@ section#trigger-links .table-wrap, .card.hl_customer-acquisition--table .hl-tabl
 
 .crm-opportunities-status .echarts svg:hover g path[fill="none"] {
   fill: #0000 !important;
-}
-**/
+}*/
+/*
 .crm-opportunities-value .echarts svg g path:first-child {
   fill: var(--main-accent-color) !important;
 }
@@ -5702,10 +5702,10 @@ section#trigger-links .table-wrap, .card.hl_customer-acquisition--table .hl-tabl
 .group.h-full.crm-opportunities-value path[fill="none"] {
   fill: #0000 !important;
 }
-
+/*
 .crm-opportunities-value #chart div:last-child {
   background-color: var(--main-accent-color) !important;
-}
+}*/
 .crm-opportunities-conversion-rate #chart div:last-child {
   background-color: var(--main-accent-color) !important;
 }
