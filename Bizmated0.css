@@ -75,6 +75,9 @@ body{font-family: 'League Spartan', sans-serif !important;}
  background-color:#22242d !important;
 }
 
+/* button when we click on the image in media storage */
+.n-button--tertiary-type{background-color: #161718 !important;}
+
 /* When right clicking in media storage on the image */
 .vue-simple-context-menu[data-v-4e53c139]{background-color: #22242D !important;}
 
