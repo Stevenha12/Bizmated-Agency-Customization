@@ -1062,14 +1062,14 @@ html body input[type="checkbox"] {
   background-color: rgba(var(--main-brand-color-3-opacity), 0.5) !important;
   border: 1px solid rgba(var(--main-white-color-opacity), 0.25) !important;
 }
-/*
+
 html body input[type="checkbox"] {
   appearance: none !important;
-}*/
-
+}
+/*
 html body input[type="radio"] {
   appearance: none !important;
-}
+}*/
 
 html body [type="checkbox"]:checked,
 html body [type="radio"]:checked {
