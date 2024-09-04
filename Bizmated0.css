@@ -68,6 +68,16 @@ body{font-family: 'League Spartan', sans-serif !important;}
     0px 4px 6px -2px rgba(16, 24, 40, 0.03);
 }
 
+/* Label when loading snapshots */
+.accordion-wrapper .card-header .right-radio label{
+ color:white;
+}
+
+/* Label when loading snapshots */
+.accordion-wrapper .card-header label{
+ color:white !important;
+}
+
 #email-builder-container{background-color: white !important;}
 
 /* Font color for verification code on login page*/
