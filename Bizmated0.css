@@ -72,6 +72,8 @@ body{font-family: 'League Spartan', sans-serif !important;}
 .accordion-wrapper .card-header .right-radio label{
  color:white;
 }
+.radio>input:checked+label{color:white !important;}
+.radio>label{color:white !important;}
 
 /* Label when loading snapshots */
 .accordion-wrapper .card-header label{
