@@ -126,7 +126,7 @@ body{
 .hl_login--body .card .card-body input {
     
     border: 1px solid var(--login-input-border) !important;
-   
+    color: var(--login-input-color) !important;
     padding: 15px 20px !important;
     border-radius: 3px !important;
     font-size: 14px;
