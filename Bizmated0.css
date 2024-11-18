@@ -2212,7 +2212,7 @@ html body #sidebar-v2 .hl_nav-header-without-footer a p span {
 }
 
 html body #sidebar-v2 #backButtonv2 {
-  color: var(--dashboard-left-nav-setting-back-button-color) !important;
+  color: white !important;
   background-color: #5271FF !important;
   font-family: var(--dashboard-left-nav-font-family) !important;
 }
