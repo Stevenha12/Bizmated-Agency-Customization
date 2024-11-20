@@ -2218,7 +2218,7 @@ html body #sidebar-v2 #backButtonv2 {
 }
 
 html body #sidebar-v2 #backButtonv2 span {
-  color: var(--dashboard-left-nav-setting-back-button-color) !important;
+  color: white !important;
 }
 
 html body #sidebar-v2 .overflow-y-auto::-webkit-scrollbar {
