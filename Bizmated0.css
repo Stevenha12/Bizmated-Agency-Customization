@@ -82,8 +82,7 @@ body{font-family: 'League Spartan', sans-serif !important;}
 
 #email-builder-container{background-color: white !important;}
 
-/* Font color for verification code on login page*/
-.hl_login--body .container-fluid > div:not(.card) .card .card-body input{color: white !important;}
+
 
 /* Font medium when logged in as a different user*/
 .hl_header .justify-center .font-medium{
