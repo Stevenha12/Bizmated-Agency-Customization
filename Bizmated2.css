@@ -13,7 +13,7 @@ body{
     --login-logo: url("https://storage.googleapis.com/msgsndr/rgt01euiFLDwLNoBYbYm/media/66ca81cbd6d90bb2a511d9b4.png");
     --login-heading-color: #282828;
     --login-input-color: #363636;
-    --login-input-bg: transparent;
+    
     --login-input-border: #cccccc;
     --login-error-color: #363636;
     --login-forgot-pass-color: #363636;
