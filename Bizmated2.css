@@ -119,10 +119,8 @@ body{
     color: var(--login-heading-color);
     font-size: 23px !important;
 }
-.hl_login--body .card .card-body label,
-.hl_login--body .card .card-body span.hl-text-input-label {
-    display: none;
-}
+
+
 .hl_login--body .card .card-body input {
     
     border: 1px solid var(--login-input-border) !important;
