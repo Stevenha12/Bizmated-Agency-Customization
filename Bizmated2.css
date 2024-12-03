@@ -49,6 +49,9 @@ body{
     margin-bottom: 20px;
 }
 
+/* Font color for verification code on login page*/
+.hl_login--body .container-fluid > div:not(.card) .card .card-body input{color: black !important;}
+
 /* Theme Style */
 
 .hl_login {
