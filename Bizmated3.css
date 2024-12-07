@@ -106,8 +106,14 @@ button:disabled {
     font-size: 30px !important;
 }
 
+.hl_login--body .container-fluid > div:not(.card) .card .card-body input {
+    color: #000 !important;
+}
 
-
+.hl_login--body .card button.hl-btn.justify-center.w-full.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600 {
+    background: var(--login-button-bg) !important;
+    color: #FFFFFF !important;
+}
 
 .hl_login--body .card {
     background: #1e1f20 !important;
