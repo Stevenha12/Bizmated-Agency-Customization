@@ -111,9 +111,6 @@ button:disabled {
     color: #FFFFFF !important;
 }
 
-.hl_login--body .container-fluid > div:not(.card) .card .card-body input {
-    color: #000 !important;
-}
 
 .hl_login--body .card {
     background: #1e1f20 !important;
