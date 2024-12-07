@@ -122,7 +122,25 @@ body{
     font-size: 23px !important;
 }
 
-
+.hl_login--body .card .card-body input {
+    
+    border: 1px solid var(--login-input-border) !important;
+    color: var(--login-input-color) !important;
+    padding: 15px 20px !important;
+    border-radius: 3px !important;
+    font-size: 14px;
+    line-height: 20px;
+}
+.hl_login--body .card .card-body input::placeholder {
+    color: var(--login-input-color) !important;
+    opacity: 1;
+}
+.hl_login--body .card .card-body input:-ms-input-placeholder {
+    color: var(--login-input-color) !important;
+}
+.hl_login--body .card .card-body input::-ms-input-placeholder {
+    color: var(--login-input-color) !important;
+}
 
 .hl_login--body .card .card-body .error,
 .hl_login--body .card .card-body .hl-input-error,
@@ -329,6 +347,12 @@ body{
 
 .login-card-heading + div > div input[type="radio"] {
     display: none;
+}
+
+.hl_login--body .container-fluid > div:not(.card) .card .card-body input {
+    padding: revert !important;
+    background: var(--login-input-bg) !important;
+    color: var(--login-input-color) !important;
 }
 
 .login-card-heading + div > div input[type="radio"] + label:before {
