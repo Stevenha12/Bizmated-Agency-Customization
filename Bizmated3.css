@@ -92,9 +92,7 @@
 
 }*/
 
-.login-card-heading + div > div input[type="radio"]:checked + label:before {
-    background: #858585 !important;
-}
+
 
 button:disabled {
     cursor: not-allowed;
