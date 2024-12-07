@@ -325,11 +325,7 @@ body{
     padding: revert !important;
     border-radius: 50% !important;
 }
-.hl_login--body .container-fluid > div:not(.card) .card .card-body input {
-    padding: revert !important;
-    background: var(--login-input-bg) !important;
-    color: var(--login-input-color) !important;
-}
+
 .hl_login--body .container-fluid .card .card-body > div:last-child {
     color: var(--login-foot-note-link-color);
 }
