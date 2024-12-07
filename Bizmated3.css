@@ -114,3 +114,9 @@ button:disabled {
 .hl_login--body .card {
     background: #1e1f20 !important;
 }
+
+/* Email error */
+#email-error{
+ color:#ffffff !important;
+}
+
