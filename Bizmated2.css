@@ -129,16 +129,7 @@ body{
     font-size: 14px;
     line-height: 20px;
 }
-.hl_login--body .card .card-body input::placeholder {
-    color: var(--login-input-color) !important;
-    opacity: 1;
-}
-.hl_login--body .card .card-body input:-ms-input-placeholder {
-    color: var(--login-input-color) !important;
-}
-.hl_login--body .card .card-body input::-ms-input-placeholder {
-    color: var(--login-input-color) !important;
-}
+
 .hl_login--body .card .card-body .error,
 .hl_login--body .card .card-body .hl-input-error,
 .hl_login--body .card .card-body i {
