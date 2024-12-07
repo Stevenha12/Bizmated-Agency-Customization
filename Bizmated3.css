@@ -63,7 +63,15 @@
     }
 }
 
-
+.hl_login--body .card .card-body input {
+   
+    border: 2px solid #d3d3d3 !important;
+    color: #363636 !important;
+    padding: 15px 20px !important;
+    border-radius: 25px !important;
+    font-size: 14px;
+    line-height: 20px;
+}
 
 .hl_login--body .card .card-body .hl-btn {
     font-size: 20px;
