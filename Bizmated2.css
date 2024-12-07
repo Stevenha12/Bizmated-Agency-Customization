@@ -3,6 +3,7 @@
 body{
  font-family: 'League Spartan', sans-serif !important;
 }
+
 :root {
     /* this overrides the default colors in the base css */
     
@@ -47,9 +48,6 @@ body{
     display: block;
     margin-bottom: 20px;
 }
-
-/* Font color for verification code on login page*/
-.hl_login--body .container-fluid > div:not(.card) .card .card-body input{color: black !important;}
 
 /* Theme Style */
 
@@ -121,12 +119,10 @@ body{
     color: var(--login-heading-color);
     font-size: 23px !important;
 }
-
 .hl_login--body .card .card-body label,
 .hl_login--body .card .card-body span.hl-text-input-label {
     display: none;
 }
-
 .hl_login--body .card .card-body input {
     
     border: 1px solid var(--login-input-border) !important;
@@ -146,7 +142,6 @@ body{
 .hl_login--body .card .card-body input::-ms-input-placeholder {
     color: var(--login-input-color) !important;
 }
-
 .hl_login--body .card .card-body .error,
 .hl_login--body .card .card-body .hl-input-error,
 .hl_login--body .card .card-body i {
@@ -333,7 +328,11 @@ body{
     padding: revert !important;
     border-radius: 50% !important;
 }
-
+.hl_login--body .container-fluid > div:not(.card) .card .card-body input {
+    padding: revert !important;
+    background: var(--login-input-bg) !important;
+    color: var(--login-input-color) !important;
+}
 .hl_login--body .container-fluid .card .card-body > div:last-child {
     color: var(--login-foot-note-link-color);
 }
@@ -352,12 +351,6 @@ body{
 
 .login-card-heading + div > div input[type="radio"] {
     display: none;
-}
-
-.hl_login--body .container-fluid > div:not(.card) .card .card-body input {
-    padding: revert !important;
-    background: var(--login-input-bg) !important;
-    color: var(--login-input-color) !important;
 }
 
 .login-card-heading + div > div input[type="radio"] + label:before {
